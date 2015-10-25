@@ -30,27 +30,30 @@ public class Tile : MonoBehaviour
 	{
 		if (IsVisible)
 		{
-			switch (Type)
-			{
-				case TileType.Green:
-					break;
-				case TileType.Red:
-					break;
-				case TileType.Blue:
-					break;
-				case TileType.Yellow:
-					break;
-				case TileType.Orange:
-					break;
-				default:
-					break;
-			}
 			renderer.material = container.materials[(int)Type];
 		}
 		else
 		{
 			renderer.material = container.materials[0];
 		}
+	}
+
+	public static Color GetColor(TileType Type)
+	{
+		switch (Type)
+		{
+			case TileType.Green:
+				return Color.green;
+			case TileType.Red:
+				return Color.red;
+			case TileType.Blue:
+				return Color.blue;
+			case TileType.Yellow:
+				return Color.yellow;
+			case TileType.Orange:
+				return new Color(0.9f, 0.5f, 0f);
+		}
+		return Color.blue;
 	}
 
 }

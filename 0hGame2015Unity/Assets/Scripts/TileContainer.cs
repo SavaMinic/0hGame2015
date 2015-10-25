@@ -63,7 +63,7 @@ public class TileContainer : MonoBehaviour
 			if (Physics.Raycast(ray, out hitInfo, Mathf.Infinity, clickableLayers))
 			{
 				var tile = hitInfo.collider.GetComponent<Tile>();
-				if (tile != null)
+				if (tile != null && tile.Type > 0)
 				{
 					tile.IsVisible = !tile.IsVisible;
 					if (selectedType == 0)
@@ -92,7 +92,7 @@ public class TileContainer : MonoBehaviour
 		for (int i = 0; i < tiles.Length; i++)
 		{
 			tiles[i].IsVisible = true;
-			tiles[i].Type = (Tile.TileType) Random.Range(0, 4);
+			tiles[i].Type = (Tile.TileType) Random.Range(0, 5);
 		}
 		yield return new WaitForSeconds(2f);
 		infoText.text = "Tap only one type";
@@ -120,7 +120,7 @@ public class TileContainer : MonoBehaviour
 			infoText.text = "CONNECTED WORLDS";
 			infoText.color = Color.black;
 
-			translationText.color = Color.green;
+			translationText.color = Tile.GetColor(selectedType);
 			translationText.text = poems[Random.Range(0, poems.Length - 1)];
 
 			yield return new WaitForSeconds(0.5f);
