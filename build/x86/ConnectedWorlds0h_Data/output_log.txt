@@ -1,0 +1,31 @@
+Initialize engine version: 5.1.2p2 (207c2b8718a4)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics 4000 (ID=0x166)
+    Vendor:   Intel
+    VRAM:     128 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\savam\Desktop\0hgame\ConnectedWorlds0h_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\savam\Desktop\0hgame\ConnectedWorlds0h_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\savam\Desktop\0hgame\ConnectedWorlds0h_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\savam\Desktop\0hgame\ConnectedWorlds0h_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\savam\Desktop\0hgame\ConnectedWorlds0h_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\savam\Desktop\0hgame\ConnectedWorlds0h_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\savam\Desktop\0hgame\ConnectedWorlds0h_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\savam\Desktop\0hgame\ConnectedWorlds0h_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\savam\Desktop\0hgame\ConnectedWorlds0h_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\savam\Desktop\0hgame\ConnectedWorlds0h_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: C:\Users\savam\Desktop\0hgame\ConnectedWorlds0h_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\savam\Desktop\0hgame\ConnectedWorlds0h_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\savam\Desktop\0hgame\ConnectedWorlds0h_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\savam\Desktop\0hgame\ConnectedWorlds0h_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\savam\Desktop\0hgame\ConnectedWorlds0h_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.153 seconds
+desktop: 1600x900 50Hz; virtual: 1600x900 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\Users\savam\Desktop\0hgame\ConnectedWorlds0h_Data\Managed\System.dll (this message is harmless)
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 412c -> priority: 1 
