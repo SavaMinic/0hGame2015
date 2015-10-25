@@ -10,4 +10,6 @@ Not done entirely in 0h*.
 I created the barebone project files before the 2AM, then went to sleep, and wake up at 2:40AM :(
 I missed the mark for 3->2AM, and then left for an hour more.
 
-I have build it for x86 and android, inside "build" folder.
+Try the game at http://gamejolt.com/games/connected-worlds/103854 (web player, x86, android).
+
+Also, there are builds for x86 and android here , just click on Releases on top.
