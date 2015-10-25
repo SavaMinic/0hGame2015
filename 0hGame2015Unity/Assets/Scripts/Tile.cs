@@ -7,7 +7,7 @@ public class Tile : MonoBehaviour
 
 	public enum TileType
 	{
-		Green = 0,
+		Green = 1,
 		Red,
 		Blue,
 		Yellow,
@@ -28,38 +28,29 @@ public class Tile : MonoBehaviour
 
 	protected void Update()
 	{
-		Color color;
 		if (IsVisible)
 		{
 			switch (Type)
 			{
 				case TileType.Green:
-					color = Color.yellow;
 					break;
 				case TileType.Red:
-					color = Color.yellow;
 					break;
 				case TileType.Blue:
-					color = Color.yellow;
 					break;
 				case TileType.Yellow:
-					color = Color.yellow;
 					break;
 				case TileType.Orange:
-					color = Color.yellow;
 					break;
 				default:
-					color = Color.white;
 					break;
 			}
-			renderer.material.mainTexture = container.textures[(int)Type];
+			renderer.material = container.materials[(int)Type];
 		}
 		else
 		{
-			color = Color.black;
-			renderer.material.mainTexture = null;
+			renderer.material = container.materials[0];
 		}
-		renderer.material.color = color;
 	}
 
 }
